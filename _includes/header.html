@@ -1,0 +1,80 @@
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="{{ site.baseurl }}/"><img id="img-title" src="{{ site.baseurl }}/img/swiftcode_logo.png"></a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+      	  <a class="page-link" href="/">Accueil</a>
+        {% for page in site.pages %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          {% endif %}
+        {% endfor %}
+          <a class="page-link" href="https://twitter.com/swiftcode_fr" target="_blank">{% icon fa-twitter %}</a>
+      </div>
+    </nav>
+
+  </div>
+  
+<!-- rajout blog hqro.fr -->
+
+{% include adsense.html %}
+
+<!-- Adsense -->
+		
+		<!-- Newsletter -->
+		<div id="sidebarnewsletter" class="widget clearfix">
+			<h4 class="widget-title"><span>Abonnez-vous à la newsletter</span></h4>
+			<!-- Begin MailChimp Signup Form -->
+			<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+			<style type="text/css">
+				#mc_embed_signup{background:#fff; clear:left; font:1em Lato, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+				#mc_embed_signup form{padding: 0;}
+				#mc_embed_signup input.email{width: 100%; text-align: center;font-size: 0.8em;border-radius: 3px;-moz-border-radius: 3px;-webkit-border-radius: 3px;}
+				#sidebarnewsletter #mc_embed_signup .button{background-color: #d34b23; width: 100%;}
+				/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+				   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+			</style>
+			<div id="mc_embed_signup">
+			<form action="http://swiftcode.us8.list-manage.com/subscribe/post?u=65772734b0ab39fe67b9cf9f1&amp;id=1b80e213f4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Mon adresse e-mail" required>
+			    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			    <div style="position: absolute; left: -5000px;"><input type="text" name="b_65772734b0ab39fe67b9cf9f1_1b80e213f4" tabindex="-1" value=""></div>
+			    <div class="clear"><input type="submit" value="S'abonner" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+			</form>
+			</div>
+			
+			<!--End mc_embed_signup-->
+		</div>
+		<!-- Newsletter -->
+		<!-- Twitter -->
+		<div id="sidebartwitter" class="widget clearfix">
+			<h4 class="widget-title"><span>Suivez-nous sur Twitter</span></h4>
+			<a href="https://twitter.com/swiftcode_fr" class="twitter-follow-button" data-show-count="true" data-lang="fr" data-size="large">Suivre @swiftcode_fr</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+		
+		</div>
+		<!-- Twitter -->
+		
+		<!-- PDF -->
+		<div id="sidebarpdf" class="widget clearfix">
+			<h4 class="widget-title"><span>Consultez le cours hors-ligne</span></h4>
+			<h5><a href="http://adf.ly/pO8jr" target="_blank">{% icon fa-cloud-download %}  Télécharger ce cours au format PDF</a></h5>
+			<h5>{% icon fa-cloud-download %}  <del>Télécharger tous nos cours en PDF</del></h5>
+			<p class="disabled"><em>(à venir)</em></p>
+		</div>
+		<!-- PDF -->
+
+<!-- rajout blog hqro.fr -->
+</header>

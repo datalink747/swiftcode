@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{% icon fa-file-text-o %}&nbsp; {{ page.title }}</h1>
+    
+    <div class="breadcrumbs">
+    	<a href="/">{% icon fa-home %}</a>
+    	
+    	<span class="sep">&gt;</span>
+    	<a href="/#{{ page.categories }}">{{ page.categories | array_to_sentence_string | capitalize }}</a>
+    	<span class="sep">&gt;</span>
+    	
+    	{{ page.title }}
+    </div>
+    
+    <ul class="post-meta">
+    	<li class="date">{% icon fa-clock-o %} {{ page.date | date: "%d/%m/%y" }}</li>
+    	<li class="auteur">{% if page.author %} {% icon fa-user %} {{ page.author }}{% endif %}</li>
+    	<li class="cat">{% if page.categories %} {% icon fa-folder %} <a href="/#{{ page.categories }}">{{ page.categories | array_to_sentence_string | capitalize }}</a>{% endif %}</li>
+    	<li class="time">{% icon fa-clock-o %} {{ page.content | reading_time | capitalize }}</li>
+    	<li class="comment">{% icon fa-comment %} <a href="#disqus_thread">Commentaires</a></li>
+    </ul>
+    
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+{% include comments.html %}
+</div>

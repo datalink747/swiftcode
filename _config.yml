@@ -1,0 +1,12 @@
+# Site settings
+title: SWIFT CODE
+email: contact@swiftcode.fr
+description: > # this means to ignore newlines until "baseurl:"
+  Apprendre le nouveau langage Apple pour Mac et iOS
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.swiftcode.fr" # the base hostname & protocol for your site
+twitter_username: swiftcode_fr
+github_username:  hqro
+
+# Build settings
+markdown: kramdown
