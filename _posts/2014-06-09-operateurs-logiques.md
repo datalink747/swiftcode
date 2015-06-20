@@ -8,6 +8,10 @@ comments: True
 permalink: /operateurs-logiques/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Les opérateurs logiques modifient ou combinent deux valeurs booléennes logiques <code>true</code> et <code>false</code>. Swift supporte les trois opérateurs logiques standards que l'on retrouve dans les langages basés sur le C :**
 
 <ul><li>L'opérateur logique <strong>NOT</strong> (<code>!a</code>)</li>

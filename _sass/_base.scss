@@ -161,8 +161,38 @@ blockquote:before {
 	-webkit-border-radius: 99%;
 }
 
-.swift2 {
+.swift1 {
 	background: #d34b23;
+	border-left: 2px solid #e5e5e5;
+	padding: 10px 30px 10px 95px;
+	font-style: italic;
+	color: #fff;
+	//font-weight: bold;
+	position: relative;
+    font-size: 0.9em;
+    margin-bottom: 9px;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+.swift1:before {
+	display: block;
+	padding: 10px;
+	margin-top: -19px;
+	font-family: FontAwesome;
+	content: "\f06a";
+	position: absolute;
+	left: 25px;
+	top: 30px;
+	font-style: normal;
+	font-size: 26px;
+	color: #fff;
+}
+
+.swift2 {
+	background: #8DBE6B;
 	border-left: 2px solid #e5e5e5;
 	padding: 10px 30px 10px 95px;
 	font-style: italic;
@@ -182,7 +212,7 @@ blockquote:before {
 	padding: 10px;
 	margin-top: -19px;
 	font-family: FontAwesome;
-	content: "\f06a";
+	content: "\f087";
 	position: absolute;
 	left: 25px;
 	top: 30px;

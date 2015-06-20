@@ -8,6 +8,10 @@ comments: True
 permalink: /operateur-conditionnel-ternaire/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **L'opérateur conditionnel ternaire est un opérateur spécial avec trois parties et qui prend la forme suivante : <code>question ? réponse1 : réponse2</code>. C'est raccourcis pour évaluer deux expressions en même temps avec une seule question. Si la question est <code>true</code>, il renvoie des valeurs pour <code>réponse1</code> et <code>réponse2</code>.**
 
 L'opérateur conditionnel ternaire sert à raccourcir les bouts de code comme celui-ci :

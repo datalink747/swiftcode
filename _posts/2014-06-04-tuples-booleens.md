@@ -8,6 +8,10 @@ comments: True
 permalink: /tuples-booleens/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Swift possède un type de base, les _Booléens_, appelés <code>Bool</code>. Les valeurs booléennes sont définies comme _logiques_, parce-qu'elles ne peuvent qu'être _vraies_ ou _fausses_. Swift possède deux valeurs booléennes constantes, <code>true</code> et <code>false</code> :**
 
 {% highlight swift linenos %}

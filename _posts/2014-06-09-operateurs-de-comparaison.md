@@ -8,6 +8,10 @@ comments: True
 permalink: /operateurs-de-comparaison/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Swift supporte tous les opérateurs de comparaison standards que l'on retrouve aussi dans le langage C :**
 
 <ul><li>Égal à (<code>a == b</code>)</li>

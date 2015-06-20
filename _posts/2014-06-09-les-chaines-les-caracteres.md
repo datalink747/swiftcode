@@ -8,6 +8,10 @@ comments: True
 permalink: /les-chaines-les-caracteres/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Une chaîne est une suite ordonnée de caractères, tel que _"Hello, world"_ ou _"Albatros"_. Les chaînes dans Swift sont représentées par le type <code>String</code> (chaîne), qui à son tour représente une collection de valeurs du type <code>Character</code>.**
 
 Les _chaînes de caractères_ fournissent un moyen rapide de travailler avec du texte brut dans votre code. La syntaxe pour la création et la manipulation des chaînes avec Swift est similaire à la syntaxe en langage C. Les chaînes de caractères peuvent être facilement concaténées les unes à la suite des autres grâce au symbole <code>+</code> et stockée dans une variable ou une constante comme n'importe quelle autre valeur en Swift.

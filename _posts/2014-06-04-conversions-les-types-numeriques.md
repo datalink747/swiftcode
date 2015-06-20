@@ -8,6 +8,10 @@ comments: True
 permalink: /conversions-les-types-numeriques/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Utilisez au maximum le type <code>Int</code> pour tous les nombres entiers de vos constantes et vos variables dans votre code, même si vous êtes certain qu'il ne seront jamais négatif. Utilisez le type par défaut des entiers dans chaque situation où vos constantes et vos variables sont immédiatement opérationnelles avec votre code et que le compileur peut interpréter leurs types, même pour les valeurs littérales.**
 
 Utilisez un autre type d'entier uniquement quand vous en avez expressément besoin pour réaliser une tâche particulière. Parce-qu'il s'agit d'un typage imposé par une source extérieure ou un autre langage, pour la performance, l'utilisation de la mémoire ou d'autres optimisations nécessaires. Utiliser les types explicites dans ces situations évite d'voir des types de valeurs accidentelles qui ne pourront pas fonctionner avec le reste de votre code.

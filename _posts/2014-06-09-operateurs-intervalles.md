@@ -8,6 +8,10 @@ comments: True
 permalink: /operateurs-intervalles/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Swift inclut deux opérateur d'intervalles, qui sont des raccourcis pour exprimer une fourchette de valeurs.**
 
 ## Opérateur d'intervalle fermé

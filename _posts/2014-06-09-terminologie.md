@@ -8,6 +8,10 @@ comments: True
 permalink: /terminologie/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Les opérateurs sont unaires, binaires ou ternaires :**
 
 <ul><li>Les opérateurs <em>unaires</em> interviennent sur une cible seule (comme dans <code>-a</code>). Les opérateurs unaires apparaissent immédiatement avant la cible (comme dans <code>!b</code>), et immédiatement après leur cible (comme dans <code>i++</code>).</li>

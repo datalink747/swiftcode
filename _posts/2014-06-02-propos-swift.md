@@ -8,7 +8,11 @@ comments: True
 permalink: /propos-swift/
 ---
 
-**Swift est un nouveau langage de programmation pour iOS et les applications Mac OS X, conçu à partir du meilleur de C et d’Objective-C sans les contraintes de compatibilités associées. Swift adopte des modèles de programmation sécurisé et rajoute des fonctionnalités modernes pour faciliter la programmation. Plus de plaisir, plus de souplesse, plus de fun !**
+<div class="swift2">
+	<p>Cette section a été relue et corrigée, elle prend maintenant en compte les modifications apportées avec <em>Swift 2</em>.</p>
+</div>
+
+**Swift est un nouveau langage de programmation pour iOS, watchOS, et les applications Mac OS X, conçu à partir du meilleur de C et d’Objective-C sans les contraintes de compatibilités associées. Swift adopte des modèles de programmation sécurisé et rajoute des fonctionnalités modernes pour faciliter la programmation. Plus de plaisir, plus de souplesse, plus de fun !**
 
 Swift fait table rase du passé, inspiré par le tant aimé Cocoa et son framework Cocoa Touch, il est une opportunité de ré-imaginer le travail d’un développeur de logiciel.
 
@@ -20,4 +24,4 @@ Swift est également facile d’accès pour les nouveaux programmeurs. Il est le
 
 Swift combine le meilleur de la programmation moderne et de la culture Apple. Le compilateur est optimisé pour la performance et le langage est optimisé pour le développement, sans compromis chez l’un ou l’autre. Il a été conçu pour passer d’un simple *« Hello World »* a un système d’exploitation complet. Quoiqu’il en soit Swift sera et restera un investissement aussi bien pour les développeurs que pour Apple.
 
-Swift est une façon fantastique de développer une application iOS ou OS X, et il continuera d’évoluer au fil du temps avec de nouvelles fonctionnalités et capacités. Le but de Swift est ambitieux, alors allez y créer autant que vous le voulez et réaliser vos ambitions sans limites !
+Swift est une façon fantastique de développer une application iOS, watchOS ou OS X, et il continuera d’évoluer au fil du temps avec de nouvelles fonctionnalités et capacités. Le but de Swift est ambitieux, alors allez y créer autant que vous le voulez et réaliser vos ambitions sans limites !

@@ -8,6 +8,10 @@ comments: True
 permalink: /operateurs-affectation-combines/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Comme en C, Swift possède des opérateurs d'affectation qui combinent le signe d'assignement (<code>=</code>) avec une autre opération. Voyons un exemple avec le signe de l'addition (<code>+</code>) :**
 
 {% highlight swift linenos %}

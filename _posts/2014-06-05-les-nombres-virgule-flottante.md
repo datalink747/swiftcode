@@ -8,6 +8,10 @@ comments: True
 permalink: /les-nombres-virgule-flottante/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Les nombres à virgule flottante sont des nombres avec une part fractionné comme <code>3.14159</code> ou <code>-273.15</code>. La virgule est en en fait un point puisqu'on utilise ici la nomenclature anglo-saxonne pour séparer les décimales de l'entier. On les appelle aussi plus communément les nombres à virgules.**
 
 Les types des nombres à virgules représentent une beaucoup plus large palette de valeurs possibles par rapport aux types des entiers, et peuvent stocker des nombres beaucoup plus longs mais surtout beaucoup plus petits que ce que peut faire le type <code>Int</code>. Swift propose deux types de nombres à virgules dont le signe est connu :

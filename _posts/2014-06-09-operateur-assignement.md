@@ -8,6 +8,10 @@ comments: True
 permalink: /operateur-assignement/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **L'opérateur d'assignement (<code>a = b</code>) initialise ou met à jour la valeur de <code>a</code> avec la valeur de <code>b</code>. La partie à gauche de l'opérateur prend la valeur de la partie à sa droite :**
 
 {% highlight swift linenos %}

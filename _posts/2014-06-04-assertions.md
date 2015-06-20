@@ -8,6 +8,10 @@ comments: True
 permalink: /assertions/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Les optionnelles vous autorisent à vérifier des valeurs qui peuvent exister ou ne pas exister, et à écrire du code qui fonctionne sans problème même lorsqu'il n'y a pas de valeurs.**
 
 Dans certains cas néanmoins, il n'est simplement pas possible que votre code puisse continuer son exécution si aucune valeur n'existe, ou si vous n'avez pas fourni de valeur adéquate. Dans ces situations, vous pouvez déclencher une *assertion* dans votre code pour terminer son exécution et vous donner l'opportunité de le debugger à l'endroit où elle détecte une valeur manquante ou invalide.

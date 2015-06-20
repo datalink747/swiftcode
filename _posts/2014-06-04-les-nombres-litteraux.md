@@ -8,6 +8,10 @@ comments: True
 permalink: /les-nombres-litteraux/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Une valeur littérale est une valeur qui contient des lettres représentant des chiffres. En général il s'agit d'un code pouvant être interprété différemment en fonction ce que l'on souhaite obtenir.**
 
 Les entiers littéraux peuvent être écrits de différentes manières :

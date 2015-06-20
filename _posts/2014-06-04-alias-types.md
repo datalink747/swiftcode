@@ -8,6 +8,10 @@ comments: True
 permalink: /alias-types/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Les _alias de types_ permettent de définir un nom alternatif pour un type existant. Vous définissez votre alias avec la fonction <code>typealias</code>.**
 
 Les alias de types sont utiles quand vous souhaitez vous référer à un type existant en utilisant un nom qui est contextuellement plus approprié, par exemple quand vous travaillez sur des données possédants une taille spécifique et provenant d'une source extérieure :

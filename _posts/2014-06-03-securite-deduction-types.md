@@ -8,6 +8,10 @@ comments: True
 permalink: /securite-deduction-types/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Swift est un langage aux types sécurisés. Ce qui signifie qu'il vous encourage a être clair sur les types des valeurs qui doivent intervenir dans votre code. Si un bout de votre code attend une chaîne de caractères (<code>String</code>), vous ne pourrez pas passer avec un nombre entier (<code>Int</code>) par mégarde.**
 
 Parce-que Swift est un langage au type sécurisé, il vérifie tous les types lorsqu'il compile votre code et vous indique les problèmes de types comme étant des erreurs. Cela vous permet de corriger le problème rapidement et le plus tôt possible dans votre processus de développement.

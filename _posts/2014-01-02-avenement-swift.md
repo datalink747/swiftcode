@@ -8,6 +8,10 @@ comments: True
 permalink: /avenement-swift/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Le 2 juin 2014 à 19h, heure française, démarrait comme chaque année à la même période, une nouvelle édition de la WWDC. Prévu à l’attention des développeurs, cette conférence estivale allait bouleverser complètement les habitudes des développeurs iOS.**
 
 À l’annonce de la sortie d’iOS 8, le PDG d’Apple en profite pour présenter la langage Swift, un tout nouveau langage de programmation conçu pour remplacer le vieillissant Objective-C. Annoncé comme 3,5x plus rapide que l’Objective-C, Swift présente en plus l’avantage d’être plus léger, plus moderne et beaucoup plus accessible.

@@ -1,12 +1,16 @@
 ---
 layout: post
 title:  "Guide de référence pour Swift"
-date:   2014-06-02 12:58:51
+date:   2015-06-20 12:58:51
 categories: ['Annexes']
 author: Guillaume L.
 comments: True
 permalink: /antiseche-swift/
 ---
+
+<div class="swift2">
+	<p>Cette section a été relue et corrigée, elle prend maintenant en compte les modifications apportées avec <em>Swift 2</em>.</p>
+</div>
 
 **Cette antisèche est un petit guide de références rapide autour du nouveau langage Swift d’Apple. Ce guide vise à couvrir toutes les fonctionnalités clés de Swift, y compris les chaînes, les tableaux, les dictionnaires et le contrôle des flux.**
 
@@ -46,7 +50,7 @@ let message = "Il y à \(jours) jours dans une semaine"
 {% highlight swift %}
 var heureux = true
 var triste = !heureux // Opérateur NOT, triste = false
-var toutLeMondeHeureux = heureux && triste 
+var toutLeMondeHeureux = heureux && triste
 // Opérateur AND, toutLeMondeHeureux = false
 var quelqunHeureux = heureux || triste // Opérateur OR, quelqunHeureux = true
 {% endhighlight %}
@@ -55,13 +59,13 @@ var quelqunHeureux = heureux || triste // Opérateur OR, quelqunHeureux = true
 
 {% highlight swift %}
 let langage = "Swift"
-println("Coucou")
-println("J'utilise le langage \(langage)")
+print("Coucou")
+print("J'utilise le langage \(langage)")
 print("C'est vraiment ")
 print("génial !")
-/*  Coucou
-    J'utilise le langage Swift
-    C'est vraiment génial ! */
+// Coucou
+// J'utilise le langage Swift
+// C'est vraiment génial !
 {% endhighlight %}
 
 ## Les tableaux
@@ -97,32 +101,32 @@ autresJours.removeValueForKey("ven") // Retire vendredi du dictionnaire
 {% highlight swift %}
 let content = true
 if content {
-    println("Je suis content !")
+    print("Je suis content !")
 } else {
-    println("Je suis triste...")
+    print("Je suis triste...")
 }
 // Je suis content !
 
 let vitesse = 28
 if vitesse <= 0 {
-    println("stationnement")
+    print("stationnement")
 } else if vitesse <= 30 {
-    println("vitesse réduite")
+    print("vitesse réduite")
 } else {
-    println("trop rapide !")
+    print("trop rapide !")
 }
 // vitesse réduite
 
 let n = 2
 switch n {
 case 1:
-    println("C'est 1 !")
+    print("C'est 1 !")
 case 2...4:
-    println("C'est entre 2 et 4 !")
+    print("C'est entre 2 et 4 !")
 case 5, 6:
-    println("C'est 5 ou 6 !")
+    print("C'est 5 ou 6 !")
 default:
-    println("C'est un autre nombre !")
+    print("C'est un autre nombre !")
 }
 // C'est entre 2 et 4 !
 {% endhighlight swift %}
@@ -131,18 +135,18 @@ default:
 
 {% highlight swift %}
 for var index = 1; index < 3; ++index {
-    // La boucle avec index prend les valeurs 1, 2 
+    // La boucle avec index prend les valeurs 1, 2
 }
 for index in 1..3 {
     // La boucle avec index prend les valeurs 1, 2
 }
-for index in 1...3 { 
+for index in 1...3 {
     // La boucle avec index prend les valeurs 1, 2, 3
 }
 
 let couleurs = ["rouge", "bleu", "jaune"]
 for couleur in couleurs {
-    println("Couleur : \(couleur)")
+    print("Couleur : \(couleur)")
 }
 // Couleur : rouge
 // Couleur : bleu
@@ -150,7 +154,7 @@ for couleur in couleurs {
 
 let jours = ["lun": "lundi", "mar": "mardi"]
 for (miniJour, maxiJour) in jours {
-    println("\(miniJour) est le nom court pour \(maxiJour)")
+    print("\(miniJour) est le nom court pour \(maxiJour)")
 }
 // lun est le nom court pour lundi
 // mar est le nom court pour mardi
@@ -161,7 +165,7 @@ for (miniJour, maxiJour) in jours {
 {% highlight swift %}
 var compte = 1
 while compte < 3 {
-    println("Le compte vaut \(compte)")
+    print("Le compte vaut \(compte)")
     ++compte
 }
 // Le compte vaut 1
@@ -169,22 +173,21 @@ while compte < 3 {
 
 compte = 1
 while compte < 1 {
-    println("Le compte vaut \(compte)")
+    print("Le compte vaut \(compte)")
     ++compte
 }
 
-
 compte = 1
-do {
-    println("Le compte vaut \(compte)")
+repeat {
+    print("Le compte vaut \(compte)")
     ++compte
 } while compte < 3
 // Le compte vaut 1
 // Le compte vaut 2
 
 compte = 1
-do {
-    println("Le compte vaut \(compte)")
+repeat {
+    print("Le compte vaut \(compte)")
     ++compte
 } while compte < 1
 // Le compte vaut 1
@@ -209,14 +212,14 @@ partEtAutre(5) // retourne le tuple (4,6)
 {% highlight swift %}
 class Compteur {
   var compte: Int = 0
-  func incremente() { 
+  func incremente() {
     compte++
   }
   func ajoute(n: Int) {
     compte += n
   }
   func afficheCompte() {
-    println("Compte : \(compte)")
+    print("Compte : \(compte)")
   }
 }
 

@@ -8,6 +8,10 @@ comments: True
 permalink: /les-chaines-litterales/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Vous pouvez prédéfinir à l'avance les valeurs de type <code>String</code> en indiquant une suite de chiffre ou de lettres entourées par des guillemets (<code>"  "</code>).**
 
 Une chaîne de caractères peut être utilisée pour fournir une valeur initiale à une constante ou une variable :

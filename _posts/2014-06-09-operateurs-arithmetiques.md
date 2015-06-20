@@ -8,6 +8,10 @@ comments: True
 permalink: /operateurs-arithmetiques/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Swift supporte quatre *opérateurs arithmétiques* standards pour tous les types de nombres :**
 
 <ul><li>Les additions (<code>+</code>)</li>

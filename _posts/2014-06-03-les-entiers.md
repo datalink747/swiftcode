@@ -8,6 +8,10 @@ comments: True
 permalink: /les-entiers/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Les entiers sont des nombres non-fractionnés comme <code>42</code> et <code>-23</code>. Les entiers possèdent un signe (positif, zéro ou négatif) ou n'en possèdent pas si ils sont positifs ou égaux à zéro.**
 
 Swift prévoit des entiers avec ou sans signes sous la forme 8, 16, 32 et 64 bits. Ces entiers suivent des conventions de nommage similaires au langage C, un entier sans signe en 8 bits est du type <code>UInt8</code>, et un entier en 32 bits dont le signe est connu est du type <code>Int32</code>. Comme tous les types dans Swift, les types d'entiers commencent par une lettre en majuscule.

@@ -8,6 +8,10 @@ comments: True
 permalink: /optionnelles/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **On utilise les _optionnelles_ dans une situation où une valeur pourrait venir à manquer. On utilise les _optionnelles_ quand :**
 
 <ul><li>Il y a une valeur et elle est égale à <em>x</em> (où <em>x</em> est une inconnue)</li>

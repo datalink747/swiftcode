@@ -8,6 +8,10 @@ comments: True
 permalink: /environnement-travail/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Swift est un langage de programmation tout jeune, initié par Apple lors de la WWDC de juin 2014, aussi il n’existe pas encore à l’heure actuelle de véritables alternatives aux solutions propriétaires Apple pour développer pour Mac OS X et iOS avec Swift.**
 
 L’objective-C est le langage qui prédomine sur les plateformes Apple aujourd’hui mais cette époque est révolue puisqu’il va maintenant falloir passer à Swift si l’on veut proposer à ses visiteurs une expérience rapide et intuitive. Swift est annoncé 3,5x fois plus rapide que l’Objective-C et permettra en outre d’accéder à des fonctionnalités que le langage conventionnel ne pouvait jusque là pas exploiter.

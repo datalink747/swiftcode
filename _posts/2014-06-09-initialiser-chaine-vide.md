@@ -8,6 +8,10 @@ comments: True
 permalink: /initialiser-chaine-vide/
 ---
 
+<div class="swift1">
+	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+</div>
+
 **Pour créer une valeur de type <code>String</code> en tant que point de départ, vous pouvez assigner une chaîne vide à une variable ou initialiser votre instance directement avec cette syntaxe :**
 
 {% highlight swift linenos %}
