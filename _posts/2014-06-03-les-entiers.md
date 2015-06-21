@@ -1,15 +1,15 @@
 ---
 layout: post
 title:  "Les entiers"
-date:   2014-06-03 8:21:11
+date:   2015-06-21 8:21:11
 categories: ['Les Bases']
 author: Guillaume L.
 comments: True
 permalink: /les-entiers/
 ---
 
-<div class="swift1">
-	<p>Cette documentation est encore en cours de rédaction chez <em>Apple</em> et des corrections peuvent être apportées au cours des semaines à venir.</p>
+<div class="swift2">
+	<p>Cette section a été relue et corrigée, elle prend maintenant en compte les modifications apportées avec <em>Swift 2</em>.</p>
 </div>
 
 **Les entiers sont des nombres non-fractionnés comme <code>42</code> et <code>-23</code>. Les entiers possèdent un signe (positif, zéro ou négatif) ou n'en possèdent pas si ils sont positifs ou égaux à zéro.**
@@ -43,4 +43,4 @@ Swift permet aussi d'avoir des entiers sans signe du type <code>UInt</code>, qui
 <ul><li>Sur les plateformes 32 bits, <code>UInt</code> possède la même taille que <code>UInt32</code>.</li>
 <li>Sur les plateformes 64 bits, <code>UInt</code> possède la même taille que <code>UInt64</code>.</li></ul>
 
-><u>Note :</u> Utilisez <code>UInt</code> uniquement quand vous avez spécialement besoin d'un entier sans signe avec la taille de votre plateforme (32 ou 64 bits). Si ce n'est pas le cas préférez <code>Int</code> même si vous savez que la valeur ne sera jamais négative.
+>**Note :** Utilisez <code>UInt</code> uniquement quand vous avez spécialement besoin d'un entier sans signe avec la taille de votre plateforme (32 ou 64 bits). Si ce n'est pas le cas préférez <code>Int</code> même si vous savez que la valeur ne sera jamais négative.
