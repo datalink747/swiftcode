@@ -281,6 +281,22 @@ blockquote:before {
 	color: #fff;
 }
 
+.titre h4:hover {
+	color: #d34b23;
+}
+
+.title .lol:hover .fa-caret-right {
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+
+.titre h4:hover .fa-caret-right {
+	-webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+
 /**
  * Code formatting
  */

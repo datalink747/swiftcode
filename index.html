@@ -17,8 +17,9 @@ layout: default
 			<ul class="chapitre">
 				<li><a href="/propos-swift/">{% icon fa-file-text %} À propos de SWIFT</a></li>
 				<li>
-					<a href="/petit-tour-swift/">{% icon fa-file-text %} Un petit tour de SWIFT</a>
-					<ul>
+					<a href="/petit-tour-swift/">{% icon fa-file-text %} </a>
+					<a class="title">Un petit tour de SWIFT &nbsp;<i id="caret-1" class="fa fa-caret-right"></i></a>
+					<ul class="sousmenu" id="sousmenu-1">
 						<li><a href="/petit-tour-swift/#valeurs-simples">{% icon fa-bookmark %} Valeurs simples</a></li>
 						<li><a href="/petit-tour-swift/#controle-des-flux">{% icon fa-bookmark %} Contrôle des flux</a></li>
 						<li><a href="/petit-tour-swift/#fonctions-et-closures">{% icon fa-bookmark %} Fonctions et closures</a></li>
@@ -30,12 +31,13 @@ layout: default
 		<li>
 			<h3>{% icon fa-folder-open %} Guide du langage</h3>
 			<ul class="chapitre">
-				<li><h4>{% icon fa-file %} Les bases</h4></li>
-					<ul>
+				<li class="titre"><h4>{% icon fa-file %} Les bases &nbsp;<i id="caret-2" class="fa fa-caret-right"></i></h4></li>
+					<ul class="panneau" id="panneau-1">
 						<li><a href="/introduction-swift/">{% icon fa-file-text %} Introduction à Swift</a></li>
 						<li>
-							<a href="/les-constantes-les-variables/">{% icon fa-file-text %} Les constantes et les variables</a>
-							<ul>
+							<a href="/les-constantes-les-variables/">{% icon fa-file-text %} </a>
+							<a class="title">Les constantes et les variables &nbsp;<i id="caret-3" class="fa fa-caret-right"></i></a>
+							<ul class="sousmenu" id="sousmenu-2">
 								<li><a href="/les-constantes-les-variables/#dclarer-les-constantes-et-les-variables">{% icon fa-bookmark %} Déclarer les constantes et les variables</a></li>
 								<li><a href="/les-constantes-les-variables/#annotation-des-types">{% icon fa-bookmark %} Annotation des types</a></li>
 								<li><a href="/les-constantes-les-variables/#nommage-des-constantes-et-des-variables">{% icon fa-bookmark %} Nommage des constantes et des variables</a></li>
@@ -45,8 +47,9 @@ layout: default
 						<li><a href="/les-commentaires/">{% icon fa-file-text %} Les commentaires</a></li>
 						<li><a href="/les-points-virgules/">{% icon fa-file-text %} Les points virgules</a></li>
 						<li>
-							<a href="/les-entiers/">{% icon fa-file-text %} Les entiers</a>
-							<ul>
+							<a href="/les-entiers/">{% icon fa-file-text %} </a>
+							<a class="title">Les entiers &nbsp;<i id="caret-4" class="fa fa-caret-right"></i></a>
+							<ul class="sousmenu" id="sousmenu-3">
 								<li><a href="/les-entiers/#les-limites-des-entiers">{% icon fa-bookmark %} Les limites des entiers</a></li>
 								<li><a href="/les-entiers/#int">{% icon fa-bookmark %} Le type Int</a></li>
 								<li><a href="/les-entiers/#uint">{% icon fa-bookmark %} Le type UInt</a></li>
@@ -56,22 +59,25 @@ layout: default
 						<li><a href="/securite-deduction-types/">{% icon fa-file-text %} Sécurité et déduction des types</a></li>
 						<li><a href="/les-nombres-litteraux/">{% icon fa-file-text %} Les nombres littéraux</a></li>
 						<li>
-							<a href="/conversions-les-types-numeriques/">{% icon fa-file-text %} Conversions entre types</a>
-							<ul>
+							<a href="/conversions-les-types-numeriques/">{% icon fa-file-text %} </a>
+							<a class="title">Conversions entre types &nbsp;<i id="caret-5" class="fa fa-caret-right"></i></a>
+							<ul class="sousmenu" id="sousmenu-4">
 								<li><a href="/conversions-les-types-numeriques/#conversions-dentiers">{% icon fa-bookmark %} Conversions d’entiers</a></li>
 								<li><a href="/conversions-les-types-numeriques/#conversion-des-entiers-et-des-nombres--virgule">{% icon fa-bookmark %} Conversion des entiers et des nombres à virgule</a></li>
 							</ul>
 						</li>
 						<li><a href="/alias-types/">{% icon fa-file-text %} Alias de types</a></li>
 						<li>
-							<a href="/tuples-booleens/">{% icon fa-file-text %} Booléens et tuples</a>
-							<ul>
+							<a href="/tuples-booleens/">{% icon fa-file-text %} </a>
+							<a class="title">Booléens et tuples &nbsp;<i id="caret-6" class="fa fa-caret-right"></i></a>
+							<ul class="sousmenu" id="sousmenu-5">
 								<li><a href="/tuples-booleens/#les-tuples">{% icon fa-bookmark %} Les tuples</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="/optionnelles/">{% icon fa-file-text %} Les optionnelles</a>
-							<ul>
+							<a href="/optionnelles/">{% icon fa-file-text %} </a>
+							<a class="title">Les optionnelles &nbsp;<i id="caret-7" class="fa fa-caret-right"></i></a>
+							<ul class="sousmenu" id="sousmenu-6">
 								<li><a href="/optionnelles/#identifier-le-type-dune-optionnelle-avec-if">{% icon fa-bookmark %} Identifier le type d’une optionnelle</a></li>
 								<li><a href="/optionnelles/#les-liaisons-optionnelles">{% icon fa-bookmark %} Les liaisons optionnelles</a></li>
 								<li><a href="/optionnelles/#nil">{% icon fa-bookmark %} Nil</a></li>
@@ -79,21 +85,23 @@ layout: default
 							</ul>
 						</li>
 						<li>
-							<a href="/assertions/">{% icon fa-file-text %} Les assertions</a>
-							<ul>
+							<a href="/assertions/">{% icon fa-file-text %} </a>
+							<a class="title">Les assertions &nbsp;<i id="caret-8" class="fa fa-caret-right"></i></a>
+							<ul class="sousmenu" id="sousmenu-7">
 								<li><a href="/assertions/#debugger-avec-les-assertions">{% icon fa-bookmark %} Debugger avec les assertions</a></li>
 								<li><a href="/assertions/#quand-utiliser-les-assertions-">{% icon fa-bookmark %} Quand utiliser les assertions ?</a></li>
 							</ul>
 						</li>
 					</ul>
-				<li><h4>{% icon fa-file %} Les opérateurs de base</h4></li>
-					<ul>
+				<li class="titre"><h4>{% icon fa-file %} Les opérateurs de base &nbsp;<i id="caret-9" class="fa fa-caret-right"></i></h4></li>
+					<ul class="panneau" id="panneau-2">
 						<li><a href="/les-operateurs-base/">{% icon fa-file-text %} Introduction aux opérateurs de base</a></li>
 						<li><a href="/terminologie/">{% icon fa-file-text %} Terminologie</a></li>
 						<li><a href="/operateur-assignement/">{% icon fa-file-text %} L'opérateur d'assignement</a></li>
 						<li>
-							<a href="/operateurs-arithmetiques/">{% icon fa-file-text %} Opérateurs arithmétiques</a>
-							<ul>
+							<a href="/operateurs-arithmetiques/">{% icon fa-file-text %} </a>
+							<a class="title">Opérateurs arithmétiques &nbsp;<i id="caret-10" class="fa fa-caret-right"></i></a>
+							<ul class="sousmenu" id="sousmenu-8">
 								<li><a href="/operateurs-arithmetiques/#la-division-avec-reste">{% icon fa-bookmark %} La division avec reste</a></li>
 								<li><a href="/operateurs-arithmetiques/#calculer-le-reste-avec-des-nombres--virgule">{% icon fa-bookmark %} Calculer le reste avec des nombres à virgule</a></li>
 								<li><a href="/operateurs-arithmetiques/#oprateurs-dincrmentation-et-de-dcrmentation">{% icon fa-bookmark %} Opérateurs d’incrémentation et de décrémentation</a></li>
@@ -106,15 +114,17 @@ layout: default
 						<li><a href="/operateur-conditionnel-ternaire/">{% icon fa-file-text %} Opérateur conditionnel ternaire</a></li>
 						<li><a href="/operateur-union-nil/">{% icon fa-file-text %} Opérateur d'union nil</a></li>
 						<li>
-							<a href="/operateurs-intervalles/">{% icon fa-file-text %} Opérateurs d'intervalles</a>
-							<ul>
+							<a href="/operateurs-intervalles/">{% icon fa-file-text %} </a>
+							<a class="title">Opérateurs d'intervalles &nbsp;<i id="caret-11" class="fa fa-caret-right"></i></a>
+							<ul class="sousmenu" id="sousmenu-9">
 								<li><a href="/operateurs-intervalles/#oprateur-dintervalle-ferm">{% icon fa-bookmark %} Opérateur d’intervalle fermé</a></li>
 								<li><a href="/operateurs-intervalles/#oprateur-dintervalle-semi-ferm">{% icon fa-bookmark %} Opérateur d’intervalle semi-fermé</a></li>
 							</ul>
 						</li>
 						<li>
-							<a href="/operateurs-logiques/">{% icon fa-file-text %} Les opérateurs logiques</a>
-							<ul>
+							<a href="/operateurs-logiques/">{% icon fa-file-text %} </a>
+							<a class="title">Les opérateurs logiques &nbsp;<i id="caret-12" class="fa fa-caret-right"></i></a>
+							<ul class="sousmenu" id="sousmenu-10">
 								<li><a href="/operateurs-logiques/#oprateur-logique-not">{% icon fa-bookmark %} Opérateur logique NOT</a></li>
 								<li><a href="/operateurs-logiques/#oprateur-logique-and">{% icon fa-bookmark %} Opérateur logique AND</a></li>
 								<li><a href="/operateurs-logiques/#oprateur-logique-or">{% icon fa-bookmark %} Opérateur logique OR</a></li>
@@ -123,8 +133,8 @@ layout: default
 							</ul>
 						</li>
 					</ul>
-				<li><h4>{% icon fa-file %} Les chaînes et les caractères</h4></li>
-					<ul>
+				<li class="titre"><h4>{% icon fa-file %} Les chaînes et les caractères &nbsp;<i id="caret-13" class="fa fa-caret-right"></i></h4></li>
+					<ul class="panneau" id="panneau-3">
 						<li><a href="/les-chaines-les-caracteres/">{% icon fa-file-text %} Introduction aux chaînes de caractères</a></li>
 						<li><a href="/les-chaines-litterales/">{% icon fa-file-text %} Les chaînes de caractères littérales</a></li>
 						<li><a href="/initialiser-chaine-vide/">{% icon fa-file-text %} Initialiser une chaîne vide</a></li>
@@ -133,8 +143,9 @@ layout: default
 						<li><a href="/travailler-avec-caracteres/">{% icon fa-file-text %} Travailler avec les caractères</a></li>
 						<li><a href="/concatener-chaines-caracteres/">{% icon fa-file-text %} Concaténer les chaînes et les caractères</a></li>
 						<li>
-							<a href="/unicode-swift/">{% icon fa-file-text %} L'Unicode</a>
-							<ul>
+							<a href="/unicode-swift/">{% icon fa-file-text %} </a>
+							<a class="title">L'Unicode &nbsp;<i id="caret-14" class="fa fa-caret-right"></i></a>
+							<ul class="sousmenu" id="sousmenu-11">
 								<li><a href="/unicode-swift/#les-valeurs-scalaires-en-unicode">{% icon fa-bookmark %} Les valeurs scalaires en Unicode</a></li>
 								<li><a href="/unicode-swift/#les-caractres-spciaux-dans-les-chanes">{% icon fa-bookmark %} Les caractères spéciaux dans les chaînes</a></li>
 								<li><a href="/unicode-swift/#les-combinaisons-unicode">{% icon fa-bookmark %} Les combinaisons Unicode</a></li>
@@ -157,3 +168,81 @@ layout: default
 	</ul>
 
 </div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script>
+
+$(document).ready(function()
+{
+	// 0/ Masquage des panneaux par défaut
+	$panneaux = $('ul.panneau').hide();
+	$sousmenu = $('ul.sousmenu').hide();
+	
+	// ---------------------------------------------------------------------------------------- //
+	
+	// 1/ Initialisation des liens d'accès aux panneaux
+	
+	$('li.titre').each(function(i)
+	{
+		$this = $(this);
+		ancre = $this.next($panneaux)[0].id;
+		
+		lien = $('<a>',
+		{
+			'href':				'#' + ancre,
+			'aria-expanded':	'false',
+			'aria-controls':	ancre,
+			'class':			'lol'
+		});
+		
+		$this.wrapInner(lien);
+	});
+	
+	$('a.title').each(function(j)
+	{
+		$this = $(this);
+		ancre = $this.next($sousmenu)[0].id;
+		
+		lien = $('<a>',
+		{
+			'href':				'#' + ancre,
+			'aria-expanded':	'false',
+			'aria-controls':	ancre,
+			'class':			'lol'
+		});
+		
+		$this.wrapInner(lien);
+	});
+	
+	// ---------------------------------------------------------------------------------------- //
+
+    // 2/ Gestion de l'affichage des panneaux
+	$('li.titre > a').click(function() 
+	{
+		if ($(this).attr('aria-expanded') == 'false') 
+		{
+            $(this).attr('aria-expanded', true).parent().next($panneaux).show();
+		} 
+		else 
+		{
+            $(this).attr('aria-expanded', false).parent().next($panneaux).hide();
+		}
+		return false;
+	});
+	
+	$('a.title > a').click(function() 
+	{
+		if ($(this).attr('aria-expanded') == 'false') 
+		{
+            $(this).attr('aria-expanded', true).parent().next($sousmenu).show();
+		} 
+		else 
+		{
+            $(this).attr('aria-expanded', false).parent().next($sousmenu).hide();
+		}
+		return false;
+	});
+});
+
+// Annexes/ Fonctions annexes
+		</script>
