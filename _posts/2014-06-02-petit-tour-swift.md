@@ -18,7 +18,7 @@ permalink: /petit-tour-swift/
 print("Hello, world")
 {% endhighlight %}
 
-Si vous avez déjà écrit quelques lignes de codes en C ou en Objective-C, cette syntaxe devrait vous sembler familière. Dans Swift, cette seule ligne de code est un programme complet. Vous n’avez pas besoin d’importer une librairie additionnelle pour des fonctionnalités comme *Input/Output* ou la gestion des *chaînes de caractères*. Le code est écrit de façon globale pour tout le programme et est utilisé comme point d’entrée pour le programme, du coup vous n’avez plus besoin de la fonction `main`. Vous n’avez également plus besoin d’ajouter une virgule ou un point-virgule à la fin d’une déclaration.
+Si vous avez déjà écrit quelques lignes de code en C ou en Objective-C, cette syntaxe devrait vous sembler familière. Dans Swift, cette seule ligne de code est un programme complet. Vous n’avez pas besoin d’importer une librairie additionnelle pour des fonctionnalités comme *Input/Output* ou la gestion des *chaînes de caractères*. Le code est écrit de façon globale pour tout le programme et est utilisé comme point d’entrée pour le programme, du coup vous n’avez plus besoin de la fonction `main`. Vous n’avez également plus besoin d’ajouter une virgule ou un point-virgule à la fin d’une déclaration.
 
 Ce petit tour vous donne assez d’information pour démarrer l’écriture du code avec Swift en présentant les différentes façons d’accomplir une très grande variété de tâches dans vos programmes. Pas d’inquiétude si vous ne comprenez pas tout dans ce chapitre, chaque élément sera expliqué en détail dans le reste de ce tutoriel.
 
@@ -34,9 +34,9 @@ maVariable = 50
 let maConstante = 42
 {% endhighlight swift %}
 
-Une constante ou une variable doivent avoir le même type que la valeur que vous lui assignez. Cependant, vous n’aurez pas toujours besoin d’indiquer le type de façon explicite. Fournir une valeur lorsque vous créez une constante ou une variable permet au compilateur de déduire son type. Dans l’exemple ci-dessus, le compileur sait que `maVariable` est un intégral parce-que sa valeur est un intégral (un nombre entier).
+Une constante ou une variable doivent avoir le même type que la valeur que vous lui assignez. Cependant, vous n’aurez pas toujours besoin d’indiquer le type de façon explicite. Fournir une valeur lorsque vous créez une constante ou une variable permet au compilateur de déduire son type. Dans l’exemple ci-dessus, le compileur sait que `maVariable` est un entier parce que sa valeur est un entier.
 
-Si la valeur initiale ne présente pas suffisamment d’information (ou bien qu’il n’y a pas de valeur initiale), vous devez spécifiez le type en l’indiquant après la variable, séparé par deux points.
+Si la valeur initiale ne présente pas suffisamment d’informations (ou bien qu’il n’y a pas de valeur initiale), vous devez spécifier le type en l’indiquant après la variable, séparé par deux points.
 
 {% highlight swift linenos %}
 let entierImplicite = 70
@@ -56,7 +56,7 @@ let largeurTotale = label + String(largeur)
 
 >**Exercice :** Essayer de supprimer le paramètre de conversion `String` de la dernière ligne. Quelle erreur obtenez-vous ?
 
-Il y a une façon beaucoup plus simple de transformer les valeurs en chaîne de caractères : Écrire la valeur entre parenthèses et précéder ces parenthèses d’un anti-slash. Par exemple :
+Il y a une façon beaucoup plus simple de transformer les valeurs en chaîne de caractères : écrire la valeur entre parenthèses et précéder ces parenthèses d’un anti-slash. Par exemple :
 
 {% highlight swift linenos %}
 let pommes = 3
@@ -65,7 +65,7 @@ let pommesTotal = "Je possède \(pommes) pommes."
 let fruitsTotal = "Je possède \(pommes + oranges) fruits en tout."
 {% endhighlight %}
 
->**Exercice :** Utilisez () pour inclure une virgule flottante dans un calcul avec une chaîne de caractère.
+>**Exercice :** Utilisez () pour inclure une virgule flottante dans un calcul avec une chaîne de caractères.
 
 On utilise les crochets ([ ]) pour créer des tableaux et des dictionnaires, et on accède à leurs éléments en indiquant la clé ou l’index entre crochets.
 
@@ -89,14 +89,14 @@ let tableauVide = [String]()
 let dictionnaireVide = [String:Float]()
 {% endhighlight %}
 
-Si le type de l’information peut être déduite par le compileur, vous pouvez initier un tableau vide avec [] et un dictionnaire vide avec [:]
+Si le type de l’information peut être déduite par le compilateur, vous pouvez initier un tableau vide avec [] et un dictionnaire vide avec [:]
 
 {% highlight swift linenos %}
 shoppingList = []   // Je peux acheter n'importe quoi.
 metiers = [:]
 {% endhighlight %}
 
-## Controle des flux
+## Contrôle des flux
 
 La gestion des conditions s’effectue avec `if` et `switch` et les boucles avec `for-in`, `for`, `while` et `repeat-while`. Les parenthèses autour des conditions et des boucles sont optionnelles. En revanche, les accolades autour du corps de la boucle ou de la condition sont indispensables.
 
@@ -115,7 +115,7 @@ print(equipeScore)
 
 Dans le cas d’un `if`, la condition doit être une expression booléenne. Ce qui veut dire qu’un code du type `if score {...}` est une erreur, ce n’est pas une comparaison implicite à zéro.
 
-Vous pouvez utiliser `if` et `let` ensemble pour pallier au problème. Ces valeurs sont présentés comme optionnelles. Une valeur optionnelle contient une valeur ou contient `nil` pour indiquer l’absence de valeur. Pour indiquer qu’une valeur est optionnelle, on utilise le point d’interrogation.
+Vous pouvez utiliser `if` et `let` ensemble pour pallier au problème. Ces valeurs sont présentées comme optionnelles. Une valeur optionnelle contient une valeur ou contient `nil` pour indiquer l’absence de valeur. Pour indiquer qu’une valeur est optionnelle, on utilise le point d’interrogation.
 
 {% highlight swift linenos %}
 var optionalString: String? = "Hello"
@@ -132,7 +132,7 @@ if let name = optionalName {
 
 Si la valeur optionnelle est `nil`, la condition est `false` et le code entre les accolades est ignoré. Par ailleurs, la valeur optionnelle est extraite et assignée à la constante après `let`, ce qui fait que la valeur devient disponible à l’intérieur du bloc de code.
 
-Les `switch` supportent n’importe quel type de données et une grande variété d’opérateur de comparaison, ils ne sont pas uniquement limités aux intégrales et aux tests d’égalités.
+Les `switch` supportent n’importe quel type de données et une grande variété d’opérateur de comparaison, ils ne sont pas uniquement limités aux entiers et aux tests d’égalité.
 
 {% highlight swift linenos %}
 let legume = "poivre rouge"
@@ -152,7 +152,7 @@ default:
 
 Après avoir exécuté le code dans le `switch case` qui a répondu, le programme sort de la boucle conditionnelle. L’exécution du programme ne continue pas avec le `case` suivant, il est donc inutile d’indiquer un `break` à la fin de chaque `case`.
 
-Vous utiliserez `for-in` pour itérer (c’est a dire passer en revue) le contenu d’un dictionnaire en fournissant des noms a utiliser pour chaque paire de valeurs de clés.
+Vous utiliserez `for-in` pour itérer (c’est à dire passer en revue) le contenu d’un dictionnaire en fournissant des noms à utiliser pour chaque paire de valeurs de clés.
 
 {% highlight swift linenos %}
 let nombresInterressants = [
@@ -173,7 +173,7 @@ print(lePlusGrand)
 
 >**Exercice :** Ajoutez une autre variable pour garder une trace du nombre qui était le plus grand, ainsi que le type du nombre que c’était.
 
-Utilisez `while` pour répéter un bloc de code jusqu’a ce qu’une condition change. La condition de la boucle peut être à la fin, pour s’assurer l’exécution de la boucle au moins une fois.
+Utilisez `while` pour répéter un bloc de code jusqu’à ce qu’une condition change. La condition de la boucle peut être à la fin, pour s’assurer l’exécution de la boucle au moins une fois.
 
 {% highlight swift linenos %}
 var n = 2
@@ -218,9 +218,9 @@ func saluer(nom: String, jour: String) -> String {
 saluer("Bob", "Mardi")
 {% endhighlight swift linenos %}
 
->**Exercice :** Gardez le paramètre *jour*. Faites en sorte que la fonction *saluer* retourne l'heure du diner en fonction du *jour*.
+>**Exercice :** Gardez le paramètre *jour*. Faites en sorte que la fonction *saluer* retourne l'heure du dîner en fonction du *jour*.
 
-On utilise un *tuple* pour créer une valeur composée : par exemple, pour retourner plusieurs valeurs depuis une fonction. Les élements d'un *tuple* peuvent être référencé par nom ou par type.
+On utilise un *tuple* pour créer une valeur composée : par exemple, pour retourner plusieurs valeurs depuis une fonction. Les élements d'un *tuple* peuvent être référencés par nom ou par type.
 
 {% highlight swift linenos %}
 func calculsStatistiques(scores: [Int]) -> (min: Int, max: Int, total: Int) {
@@ -305,7 +305,7 @@ var nombres = [20, 19, 7, 12]
 possedeLiens(nombres, condition: moinsQueDix)
 {% endhighlight swift linenos %}
 
-Les *fonctions* sont en fait un cas spécial des *closures*: des blocs de code qui peuvent être appelés plus tard. Le code dans une *closure* a accès à des choses comme des variables et des fonctions qui étaient disponible entre les accolades où ils ont été créé, même si la *closure* est elle-même se trouve entre d'autres accolades lorsqu'elle est exécutée, nous l'avons vu avec l'exemple des *fonctions imbriquées*. Vous pouvez avoir une *closure* sans nom, simplement en entourant son code avec des parenthèses `({})`. Utilisez `in` pour séparer les arguments et retourner son type.
+Les *fonctions* sont en fait un cas spécial des *closures*: des blocs de code qui peuvent être appelés plus tard. Le code dans une *closure* a accès à des choses comme des variables et des fonctions qui étaient disponibles entre les accolades où ils ont été créés, même si la *closure* elle-même se trouve entre d'autres accolades lorsqu'elle est exécutée; nous l'avons vu avec l'exemple des *fonctions imbriquées*. Vous pouvez avoir une *closure* sans nom, simplement en entourant son code avec des parenthèses `({})`. Utilisez `in` pour séparer les arguments et retourner son type.
 
 {% highlight swift linenos %}
 nombres.map({
@@ -317,7 +317,7 @@ nombres.map({
 
 >**Exercice :** Réécrivez la closure pour qu'elle retourne zéro pour tous les nombres impairs.
 
-Vous avez différentes options pour écrire une *closure* de façon plus concise. Lorsque le type d'une *closure* est déjà connu, vous n'êtes pas obligé d'indiquer son type dans les paramètres, le type retourné ou les deux. Les *closures* déclarées toutes seules, retournent implicitement la valeur leur propre déclaration.
+Vous avez différentes options pour écrire une *closure* de façon plus concise. Lorsque le type d'une *closure* est déjà connu, vous n'êtes pas obligé d'indiquer son type dans les paramètres, le type retourné ou les deux. Les *closures* déclarées toutes seules retournent implicitement la valeur de leur propre déclaration.
 
 {% highlight swift linenos %}
 let nombresMap = nombres.map({ nombre in 3 * nombre })
