@@ -54,7 +54,7 @@ let largeur = 94
 let largeurTotale = label + String(largeur)
 {% endhighlight %}
 
->**Exercice :** Essayer de supprimer le paramètre de conversion `String` de la dernière ligne. Quelle erreur obtenez-vous ?
+>**Exercice :** Essayez de supprimer le paramètre de conversion `String` de la dernière ligne. Quelle erreur obtenez-vous ?
 
 Il y a une façon beaucoup plus simple de transformer les valeurs en chaîne de caractères : écrire la valeur entre parenthèses et précéder ces parenthèses d’un anti-slash. Par exemple :
 
