@@ -14,9 +14,9 @@ permalink: /introduction-swift/
 
 **Swift est un nouveau langage de programmation pour le développement d’application iOS, watchOS et Mac OS X. Néanmoins, certaines parties du langage Swift seront familière si vous avez déjà une expérience dans le développement C et Objective-C.**
 
-Swift fourni tous ses propres versions des types fondamentaux du C et de l’Objective-C, incluant `Int` pour les intégrales, `Double` and `Float` pour les nombres à virgule flottante, `Bool` pour les valeurs booléennes et `String` pour les données textuelles. Swift fourni aussi une version puissante des deux principaux types de collection, `Array` et `Dictionary` pour les tableaux et les dictionnaires.
+Swift fournit ses propres versions des types fondamentaux du C et de l’Objective-C, incluant `Int` pour les entiers, `Double` and `Float` pour les nombres à virgule flottante, `Bool` pour les valeurs booléennes et `String` pour les données textuelles. Swift fournit aussi une version puissante des deux principaux types de collection, `Array` et `Dictionary` pour les tableaux et les dictionnaires.
 
-Comme le C, Swift utilise les variables pour stocker et se référer aux valeurs identifiées par leur nom. Swift permet aussi l’utilisation des variables dont les valeurs ne peuvent pas être changées. Aussi appelée constantes, elles sont plus puissantes que dans la langage C. Les constantes sont utilisées partout avec Swift pour obtenir un code clair et sans faille de sécurité dans la mesure où vous travaillez avec des valeurs qui n’ont pas besoin d’être modifiées.
+Comme le C, Swift utilise les variables pour stocker et se référer aux valeurs identifiées par leur nom. Swift permet aussi l’utilisation des variables dont les valeurs ne peuvent pas être changées. Aussi appelées constantes, elles sont plus puissantes que dans le langage C. Les constantes sont utilisées partout avec Swift pour obtenir un code clair et sans faille de sécurité dans la mesure où vous travaillez avec des valeurs qui n’ont pas besoin d’être modifiées.
 
 En supplément des types familiers, Swift introduit d’autres types avancés que ne possède pas l’Objective-C. Il s’agit notamment de tuples (listes non-mutables), qui vous permettent de créer et de passer par des regroupements de valeurs. Les Tuples peuvent retourner de multiples valeurs depuis une fonction comme une valeur unique composée.
 
