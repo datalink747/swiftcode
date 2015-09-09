@@ -17,8 +17,8 @@ permalink: /concatener-chaines-caracteres/
 {% highlight swift linenos %}
 let chaine1 = "salut"
 let chaine2 = " toi"
-var bienvenue = chaine1 + chaine 2
-// bienvenue vau maintenant "salut toi"
+var bienvenue = chaine1 + chaine2
+// bienvenue vaut maintenant "salut toi"
 {% endhighlight swift linenos %}
 
 Vous pouvez aussi ajouter la valeur d'une chaîne à une variable de type `String` existante avec l'opérateur d'affectation et d'addition (`+=`) :

@@ -12,7 +12,7 @@ permalink: /antiseche-swift/
 	<p>Cette section a été relue et corrigée, elle prend maintenant en compte les modifications apportées avec <em>Swift 2</em>.</p>
 </div>
 
-**Cette antisèche est un petit guide de références rapide autour du nouveau langage Swift d’Apple. Ce guide vise à couvrir toutes les fonctionnalités clés de Swift, y compris les chaînes, les tableaux, les dictionnaires et le contrôle des flux.**
+**Cette antisèche est un petit guide de références rapide autour du nouveau langage Swift d’Apple. Ce guide vise à couvrir toutes les fonctionnalités clé de Swift, y compris les chaînes, les tableaux, les dictionnaires et le contrôle des flux.**
 
 Swift est un nouveau langage de programmation pour le développement d’applications iOS et OS X qui a été introduit par Apple en Juin 2014.
 
@@ -72,7 +72,7 @@ print("génial !")
 
 {% highlight swift %}
 var couleurs = ["rouge", "bleu"]
-var autresCouleurs: String[] = ["orange", "violet"] // explicit type
+var autresCouleurs: String[] = ["orange", "violet"] // type explicite
 couleurs.append("vert") // [rouge, bleu, vert]
 couleurs += "jaune" // [rouge, bleu, vert, jaune]
 couleurs += autresCouleurs // [rouge, bleu, vert, jaune, orange, violet]
@@ -84,7 +84,7 @@ jours[2] = "mer" // [lun, mar, mer]
 jours.removeAtIndex(0) // [mar, mer]
 {% endhighlight %}
 
-##Les dictionnaires
+## Les dictionnaires
 
 {% highlight swift %}
 var jours = ["lun": "lundi", "mar": "mradi"]
